@@ -1,0 +1,45 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# PySpark temp files
+.metastore_db/
+spark-warehouse/
+
+# DVC / Dask / cache
+*.dask/
+*.dvc/
+.cache/
+*.h5
+*.joblib
+*.pkl
+
+# VS Code config
+.vscode/
+
+# Airflow logs & SQLite DB
+logs/
+airflow.db
+unittest.cfg
+
+# Docker artifacts
+*.log
+*.pid
+*.sock
+.env.docker
+__docker_context__/
+
+# Colab-style temp files
+*.ipynb_save
+
+#DataSet
+data/raw
