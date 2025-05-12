@@ -5,6 +5,17 @@ numpy>=1.22.0
 # Image processing
 opencv-python>=4.7.0
 
+#Matplotlib for plotting
+matplotlib>=3.6.0
+# Scikit-learn for machine learning
+scikit-learn>=1.1.0
+# TensorFlow for deep learning
+tensorflow-macos>=2.10.0
+tensorflow-metal>=1.2.0
+# PyTorch for deep learning
+torch>=1.12.0
+
+
 # Dask for parallel dataframe processing
 dask[complete]>=2023.1.0
 
