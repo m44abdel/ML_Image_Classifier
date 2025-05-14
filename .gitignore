@@ -44,3 +44,10 @@ __docker_context__/
 #DataSet
 data/raw
 data/processed/images/
+
+#Models
+models/
+*.keras
+*.h5
+*.pb
+*.tflite
